@@ -1,0 +1,174 @@
+
+#mainNav {
+    background-color: black;
+}
+
+#mainNav .navbar-brand {
+    color: #c9c9c9;
+    font-weight: bold;
+}
+
+#mainNav .navbar-brand:hover {
+    color: white;
+}
+
+#mainNav .nav-link {
+    font-size: 12px;
+    color: #c9c9c9;
+}
+
+#mainNav .nav-link:hover {
+    font-size: 12px;
+    color: white;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+    outline: none;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item {
+   padding: 0 2rem;
+}
+
+#mainNav .navbar-nav .nav-item .dropdown-menu{
+    font-size: 0.8rem;
+    background-color: white;
+    width: 300px;
+}
+
+#mainNav .navbar-nav .nav-item .dropdown-item:hover{
+    text-decoration: underline;
+}
+
+#home {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0 7rem;
+    padding-top: 15rem;
+    padding-bottom: 11rem;
+    background-color: black;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 7rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: white;
+    font-weight:1.2rem
+}
+
+a {
+    color:  #0071e3;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+#formacion {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: rgba(242, 242, 242, 0.56);
+    align-items: center;
+}
+
+#formacion h2 {
+    font-size: 5rem;
+    font-weight:bold;
+    background: linear-gradient(to right, #4decf7, #f952ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+#formacion .universidad{
+    color: red;
+}
+
+#projects {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: rgba(242, 242, 242, 0.56);
+    align-items: center;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#projects .social a{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+#projects .habilidades a{
+    text-align: center;
+    color: black;
+}
+
+#idiomas {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: rgba(242, 242, 242, 0.56);
+    align-items: center;
+}
+
+#idiomas h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #fff45c, #ff7731);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#interes {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: rgba(242, 242, 242, 0.56);
+    align-items: center;
+}
+
+#interes h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #88ff8a, #ffdc77);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
+    background-color: #999999;
+    padding: 4rem 0;
+    font-size: 0.7rem;
+}
