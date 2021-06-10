@@ -271,5 +271,21 @@ header p {
 }
 
 #Scenes .test {
-    background: url(/House.png);
+    padding-top: 1rem;
+    font-weight: bold;
+    background-size: cover;
+    color: black;
+}
+#Scenes h2 {
+    font-size: 1rem;
+}
+
+#Scenes .test2 {
+    padding-top: 1rem;
+    background-size: cover;
+    color: Black;
+}
+#Scenes h2 {
+    font-size: 3rem;
+    font-weight: bold;
 }
