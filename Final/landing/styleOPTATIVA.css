@@ -267,7 +267,6 @@ header p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    padding: 0 10rem;
 }
 
 #Scenes .test {
@@ -288,4 +287,64 @@ header p {
 #Scenes h2 {
     font-size: 3rem;
     font-weight: bold;
+}
+#Information{
+    color: black;
+    padding: 2rem 0;
+}
+
+#Information h1 {
+    font-size: 5rem ;
+    font-weight:bold;
+    background: linear-gradient(to right, #ff704d, #ffff3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+
+}
+
+img{
+    border-radius: 2rem;
+}
+
+#Information{
+    color: black;
+    padding: 2rem 0;
+}
+
+#AboutMe{
+    background: gray;
+    color: white;
+    padding: 2rem 0;
+}
+
+#AboutMe h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#AboutMe .github{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+#AboutMe .linkedin{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+#AboutMe .github:hover{
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #0d0d0d, #713dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#AboutMe .linkedin:hover{
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #0095ff, #2200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
