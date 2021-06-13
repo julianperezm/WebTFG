@@ -128,7 +128,7 @@ p{
         outline: none;
     }
 }
-@media (min-width: 900px)  {
+@media (min-width: 500px)  {
         #home {
         position: relative;
         width: 100%;
@@ -326,6 +326,11 @@ p{
         font-weight: bold;
         color: black;
     }
+    img{
+    border-radius: 2rem;
+    height: 250px;
+    width: 250px;
+}
     #AboutMe .github:hover{
         font-size: 2rem;
         font-weight: bold;
@@ -515,6 +520,8 @@ header p {
 
 img{
     border-radius: 2rem;
+    height: 500px;
+    width: 700px;
 }
 
 #Information{
@@ -557,4 +564,9 @@ img{
     background: linear-gradient(to right, #0095ff, #2200ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#AboutMe img{
+    height: 190px;
+    width: 200px;
 }
