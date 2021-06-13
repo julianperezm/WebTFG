@@ -128,6 +128,223 @@ p{
         outline: none;
     }
 }
+@media (min-width: 900px)  {
+    #home {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 5rem 0;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 10rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+header p {
+    line-height: 2rem;
+    color: white
+}
+
+#project {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+    background: rgba(242, 242, 242, 0.56);
+    justify-content: center;
+    text-align: center;
+}
+.test{
+    padding: 5rem 0;
+}
+#project h1 {
+    font-size: 7rem;
+    font-weight:bold;
+    background: linear-gradient(to right, #4decf7, #f952ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding: 0 10rem;
+}
+#project p {
+    text-align: center;
+}
+
+#project a {
+    color:  #0071e3;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+#project a:hover {
+    text-decoration: underline;
+}
+.urls {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+    background: white;
+}
+
+#project h2 {
+    font-size: 3em;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+#project .btn {
+    background: #0071e3;
+    color: white;
+    border-radius: 5rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+}
+
+#project  .btn:hover {
+    background: #0081f3;
+    color: white;
+}
+
+.new-genration{
+    background-color: black;
+}
+
+.demo1{
+    background: linear-gradient(to right, #6cf797, #3bb5ff);
+    color: white;
+    padding: 2rem 0;
+}
+
+.demo2{
+    background: linear-gradient(to right, #3bdeff, #aa3bff);
+    color: white;
+    padding: 2rem 0;
+}
+
+#demo a {
+    color:  #0071e3;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#demo h1 {
+    font-size: 5rem;
+    font-weight:bold;
+    color: white;
+
+}
+
+#demo a:hover {
+    text-decoration: underline;
+}
+
+#Scenes {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+    background: rgba(242, 242, 242, 0.56);
+    justify-content: center;
+    text-align: center;
+}
+
+#Scenes h1 {
+    font-size: 7rem;
+    font-weight:bold;
+    background: linear-gradient(to right, #7f5afa, #fa5a5a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+#Scenes .test3{
+    padding-bottom: 1rem;
+    font-weight: bold;
+    background-size: cover;
+    color: black;
+}
+#Scenes h2 {
+    font-size: 1rem;
+}
+
+#Scenes h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+#Information{
+    color: black;
+    padding: 2rem 0;
+}
+
+#Information h1 {
+    font-size: 5rem ;
+    font-weight:bold;
+    background: linear-gradient(to right, #ff704d, #ffff3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+
+}
+
+img{
+    border-radius: 2rem;
+}
+
+#Information{
+    color: black;
+    padding: 2rem 0;
+}
+
+#AboutMe{
+    background: gray;
+    color: white;
+    padding: 2rem 0;
+}
+
+#AboutMe h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#AboutMe .github{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+#AboutMe .linkedin{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+#AboutMe .github:hover{
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #0d0d0d, #713dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#AboutMe .linkedin:hover{
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #0095ff, #2200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+}
 #home {
     position: relative;
     width: 100%;
