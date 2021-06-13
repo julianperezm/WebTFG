@@ -128,7 +128,7 @@ p{
         outline: none;
     }
 }
-@media (min-width: 300px)  {
+@media (min-width: 900px)  {
         #home {
         position: relative;
         width: 100%;
