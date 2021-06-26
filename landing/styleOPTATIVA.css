@@ -61,7 +61,7 @@ p{
     background-color: transparent;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 1000px) {
     #mainNav {
         padding-top: 0;
         padding-bottom: 0;
@@ -191,8 +191,6 @@ header h1 {
 
     #project {
         position: relative;
-        width: 100%;
-        height: auto;
         padding: 3rem 0;
         background: rgba(242, 242, 242, 0.56);
         justify-content: center;
@@ -285,9 +283,6 @@ header h1 {
     }
 
     #Scenes {
-        position: relative;
-        width: 100%;
-        height: auto;
         padding: 3rem 0;
         background: rgba(242, 242, 242, 0.56);
         justify-content: center;
@@ -295,7 +290,7 @@ header h1 {
     }
 
     #Scenes h1 {
-        font-size: 2.5rem;
+        font-size: 1rem;
         font-weight:bold;
         background: linear-gradient(to right, #7f5afa, #fa5a5a);
         -webkit-background-clip: text;
@@ -314,13 +309,9 @@ header h1 {
         font-size: 1.5rem;
         font-weight: bold;
     }
-    #Information{
-        color: black;
-        padding: 2rem 0;
-    }
 
     #Information h1 {
-        font-size: 5rem ;
+        font-size: 2.5rem ;
         font-weight:bold;
         background: linear-gradient(to right, #ff704d, #ffff3d);
         -webkit-background-clip: text;
@@ -335,7 +326,7 @@ header h1 {
 
     #Information{
         color: black;
-        padding: 2rem 0;
+        padding: 1rem 0;
     }
 
     #AboutMe{
@@ -506,7 +497,7 @@ header p {
 }
 
 #Scenes h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight:bold;
     background: linear-gradient(to right, #7f5afa, #fa5a5a);
     -webkit-background-clip: text;
@@ -530,11 +521,11 @@ header p {
 }
 #Information{
     color: black;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 #Information h1 {
-    font-size: 5rem ;
+    font-size: 4rem ;
     font-weight:bold;
     background: linear-gradient(to right, #ff704d, #ffff3d);
     -webkit-background-clip: text;
